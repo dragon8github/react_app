@@ -1,18 +1,10 @@
 var React = require("react")
 var ReactDOM = require("react-dom")
+var MyHeader = require('./header.js')
 
-var NavLI = React.createClass({
-    myFunc : function(){alert("123")},
-    render : function()
-    {
-        return  <ul>
-                    <li><a href='#' onClick={this.myFunc}>最新电影</a></li>
-                    <li><a href='#'>最新评论</a></li>
-                </ul>
-    }
-})
+alert("123"); 
 
-ReactDOM.render(
-         <NavLI />,
-         document.getElementById('navbar')
+ReactDOM.render( 
+    <MyHeader />,
+    document.getElementById('Header') 
 )    

@@ -1,13 +1,13 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var webpack = require('webpack');
+var path = require("path");
 
 module.exports = {
     entry:{        
-       index : './src/js/index.js',
-       hot:['webpack/hot/dev-server','webpack-dev-server/client?http://localhost:8080']
+       index : ['./src/js/index.js']       
     },
     output: {
-        path: './build/js/',  //输出文件夹
+        path: path.resolve(__dirname, "build/js/"),
         filename:'[name].js'   //最终打包生成的文件名
     },
     devServer: {
@@ -35,7 +35,7 @@ module.exports = {
     plugins:[
         //动态将上面编译好的js文件导入到以下html文件中并且生成到指定目录
         new HtmlWebpackPlugin({
-             template:__dirname + '/src/tpl/index.html',
+             template:__dirname + '/index.html',
              filename:__dirname + '/build/tpl/index.html',              
              hash:true,
              inject:"body",
