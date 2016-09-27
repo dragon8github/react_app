@@ -1,3 +1,6 @@
+var React = require("react")
+var ReactDOM = require("react-dom")
+
 var NavLI = React.createClass({
     myFunc : function(){alert("123")},
     render : function()

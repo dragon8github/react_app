@@ -2,8 +2,9 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var webpack = require('webpack');
 
 module.exports = {
-    entry:{
-       index : './src/js/index.js'
+    entry:{        
+       index : './src/js/index.js',
+       hot:['webpack/hot/dev-server','webpack-dev-server/client?http://localhost:8080']
     },
     output: {
         path: './build/js/',  //输出文件夹
@@ -38,7 +39,7 @@ module.exports = {
              filename:__dirname + '/build/tpl/index.html',              
              hash:true,
              inject:"body",
-             chunks:['common','index']
+             chunks:['common','index','hot']
         }),
         new webpack.optimize.CommonsChunkPlugin({
             name:"common",  //对应entry的对象名称
