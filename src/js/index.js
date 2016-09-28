@@ -10,7 +10,7 @@ import { Mytable } from './../components/table.js'
 require('./../css/style.css')
 require('./../css/cont.css')
 require('./../css/eTong.Layer1.0.css')
-
+   
 
 var App = React.createClass({
 	render () {
