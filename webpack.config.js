@@ -4,7 +4,8 @@ var path = require("path");
 
 module.exports = {
     entry:{        
-       app : ['./src/js/index.js']       
+       app : ['./src/js/index.js'],
+       router: ['./src/js/router.js']      
     },
     output: {
          path: path.resolve(__dirname, "build/js"),
