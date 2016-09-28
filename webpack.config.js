@@ -51,7 +51,7 @@ module.exports = {
     plugins:[
         //动态将上面编译好的js文件导入到以下html文件中并且生成到指定目录
         new HtmlWebpackPlugin({
-             template:__dirname + '/index.html',
+             template:__dirname + '/src/tpl/index.html',
              filename:__dirname + '/build/tpl/index.html',              
              hash:true,
              inject:"body",
