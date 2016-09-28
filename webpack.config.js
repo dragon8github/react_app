@@ -29,13 +29,29 @@ module.exports = {
             {
                 test: /\.css$/,
                 loaders: ['style', 'css'],  //必须先安装css-loader和style-loader
-　　　　　　}　　　　
+　　　　　　},
+            {
+                test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+                loader: 'url',
+                query: {
+                  limit: 10000,
+                  name: './build/img/[name].[hash:7].[ext]'
+                }
+            },
+            {
+                test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+                loader: 'url',
+                query: {
+                  limit: 10000,
+                  name: './build/fonts/[name].[hash:7].[ext]'
+                }
+            }　　　　
  　　　　] 
 　　},
     plugins:[
         //动态将上面编译好的js文件导入到以下html文件中并且生成到指定目录
         new HtmlWebpackPlugin({
-             template:__dirname + '/index.html',
+             template:__dirname + '/src/tpl/index.html',
              filename:__dirname + '/build/tpl/index.html',              
              hash:true,
              inject:"body",

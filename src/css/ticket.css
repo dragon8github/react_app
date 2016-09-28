@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*火车票订单详情 购票失败*/
+.ticket_faild .classOver{ padding-bottom:0;}
+.ticket_faild .classOver .cont ul li{ padding:0;}
+.ticket_faild .classOver .cont ul li .labels{ width:auto; padding-left:20px;}
+.ticket_faild .classOver .aline ul li { float: left; overflow: hidden; padding: 0; text-align: left; width: 380px; max-width:33%;}
+.ticket_faild .classOver .aline ul li .labels{ width:auto; padding-left:20px;}
+.ticket_faild .tablewrap table tr td{ text-align:center; padding:0;}
+.ticket_faild .table_bottom .wrap{ margin:0;}
+.ticket_faild .table_bottom_first{ width:150px;}
+.ticket_faild .table_bottom .wrap{ border-bottom:0;}
+.ticket_faild .table_bottom_second{ width:100%;}
+.ticket_faild .table_bottom_second ul.shortli li{ text-align:left; height:25px; line-height:25px; width:25%;}
+.ticket_faild .table_bottom_second ul.shortli li.two{ width:50%;}
+.ticket_faild .table_bottom_second ul.shortli li .label{ text-align:left; width:auto; height:25px; line-height:25px;}
+.ticket_faild .classOver.payinfo .cont{ width:25%;}
+.ticket_faild .classOver .cont{ max-width:33%;}
+

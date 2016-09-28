@@ -1,0 +1,10 @@
+/* CSS Document */
+html,body,p,h1,h2,h3,h4,ul,li,ol{ margin:0; padding:0; }
+fl{float:left;}
+fr{float:right;}
+ml-10{margin-left:10px;}
+mr-10{margin-right:10px;}
+mt-10{margin-top:10px;}
+mb-10{ margin-bottom:10px;}
+pl-10{padding-left:10px;}
+pr-10{padding-right:10px;}

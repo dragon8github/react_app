@@ -11,6 +11,15 @@
   "license": "ISC",
   "devDependencies": {
     "babel-loader": "^6.2.5",
-    "html-webpack-plugin": "^2.22.0"
+    "css-loader": "^0.25.0",
+    "express": "^4.14.0",
+    "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack-dev-middleware": "^1.8.3",
+    "webpack-hot-middleware": "^2.12.2"
+  },
+  "dependencies": {
+    "react-router": "^2.8.1"
   }
 }

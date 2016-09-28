@@ -1,0 +1,391 @@
+input[type=radio],
+input[type=checkbox] {
+  vertical-align: middle;
+}
+.w350 {
+  width: 350px;
+}
+.w180 {
+  width: 180px;
+}
+.pdl-15 {
+  padding-left: 15px;
+}
+.pdl-30 {
+  padding-left: 30px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.online_bg .labeltext {
+  display: inline-block;
+  line-height: 30px;
+  padding-left: 30px;
+  text-align: right;
+}
+.online_bg .selectAuto {
+  display: inline-block;
+  width: auto;
+  max-width: 300px;
+  min-width: 100px;
+}
+.plr10 {
+  padding: 0 5px;
+}
+.tablewrap table tr:nth-child(2n) {
+  background: #efefef;
+}
+.w-650 {
+  width: 650px;
+}
+.margin-center {
+  margin: 0 auto;
+}
+.tableLine {
+  border-collapse: collapse;
+  border: 1px solid #999;
+}
+.tableLine tr th,
+.tableLine tr td {
+  border: 1px solid #999;
+  border-left: 0;
+  border-right: 0;
+  height: 40px;
+}
+.tableLine tr:nth-child(2n) {
+  background: #eee;
+}
+.tableLine tr td label {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.tableLine tr td label input[type=radio] {
+  margin-top: 15px;
+}
+.tableLine tr th {
+  background: #fef5e6;
+}
+.table-Control {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.table-Control .title {
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.table-Control .title ul li {
+  height: 39px;
+  float: left;
+  width: 99px;
+  border: 1px solid #ccc;
+  border-top: none;
+  text-align: center;
+}
+.table-Control .title ul li.child-0 {
+  border-left: 0;
+}
+.table-Control .title ul li.child-1 {
+  border-left: 0;
+}
+.table-Control .title ul li.child-2 {
+  border-left: 0;
+  border-right: 0;
+}
+.table-Control .title ul li.etm-name {
+  width: 139px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.table-Control .title ul li.etm-cid {
+  width: 130px;
+  border: none;
+  text-align: left;
+  float: right;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.table-Control .title ul li.selected {
+  background: #efefef;
+}
+.table-Control .title ul li.once-title {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+.table-Control .search {
+  height: 30px;
+  line-heig: 30px;
+  margin-top: 5px;
+}
+.table-Control .search .search-input {
+  width: 260px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  text-indent:25px;
+  background:url(../images/item_0.png) no-repeat 5px 5px;
+}
+.table-Control .search-cont,
+.table-Control .left-count {
+  padding: 10px 0 10px 10px;
+  font-size: 14px;
+}
+.table-Control .search-cont input,
+.table-Control .left-count input {
+  vertical-align: middle;
+}
+.table-Control .search-cont input.checkbox,
+.table-Control .left-count input.checkbox {
+  margin-right: 15px;
+}
+.table-Control .search-cont .check-all,
+.table-Control .left-count .check-all {
+  display: inline-block;
+  line-height: 30px;
+}
+.table-Control .search-cont ul {
+  height: 383px;
+  display: block;
+  overflow-y: scroll;
+}
+.table-Control .search-cont ul#etm-address li:hover {
+  background: none;
+}
+.table-Control .search-cont ul li {
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+.table-Control .search-cont ul li:hover {
+  background: #efefef;
+}
+.table-Control .search-cont ul li:last-child {
+  border: none;
+}
+.table-Control .search-cont ul li:first-child {
+  border-top: 1px solid #ccc;
+}
+.table-Control .search-cont ul li label {
+  display: block;
+}
+.table-Control .search-cont ul li span {
+  line-height: 32px;
+  display: inline-block;
+}
+.table-Control .search-cont ul li span.etm-name {
+  width: 100px;
+}
+.table-Control .search-cont ul li span.etm-cid {
+  width: 100px;
+  float: right;
+}
+.table-Control .left-count ul {
+  height: 383px;
+  display: block;
+  overflow-y: scroll;
+}
+.table-Control .left-count ul li {
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+.table-Control .left-count ul li:last-child {
+  border: none;
+}
+.table-Control .left-count ul li:first-child {
+  border-top: 1px solid #ccc;
+}
+.table-Control .left-count ul li label {
+  display: block;
+}
+.table-Control .left-count ul li label:hover {
+  background: #efefef;
+}
+.table-Control .left-count ul li span {
+  line-height: 32px;
+  display: inline-block;
+}
+.table-Control .left-count ul li span.etm-name {
+  width: 100px;
+}
+.table-Control .left-count ul li span.etm-cid {
+  width: 130px;
+  float: right;
+}
+.table-Control ol.tree {
+  display: none;
+}
+.moveModel {
+  width: 100px;
+  height: 500px;
+  padding: 0 10px;
+  position: relative;
+}
+.moveModel .moveWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 80px;
+  height: 60px;
+}
+.moveModel .moveWrap .moveRight,
+.moveModel .moveWrap .moveLeft {
+  width: 71px;
+  height: 28px;
+  text-align: center;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.moveModel .moveWrap .moveRight{
+  background:url(../images/moveright.jpg) no-repeat;
+
+}
+.moveModel .moveWrap .moveLeft {
+ background:url(../images/moveleft.jpg) no-repeat;
+}
+
+.ml-100 {
+  margin-left: 100px;
+}
+.addnewchannel {
+  width: 96%;
+  overflow-y: hidden;
+}
+.addnewchannel input[checkbox],
+.addnewchannel input[radio] {
+  vertical-align: middle;
+}
+.addnewchannel ul li {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.addnewchannel li .labels {
+  display: inline-block;
+  float: left;
+  text-align: right;
+  width: 130px;
+  height: 30px;
+  line-height: 30px;
+}
+.addnewchannel li .cont-r {
+  float: left;
+  line-height: 30px;
+  overflow: hidden;
+  margin-left: 10px;
+  width: 910px;
+}
+.addnewchannel li .cont-r .input-t {
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+}
+.addnewchannel li .cont-r ul li.channer-editi {
+  float: left;
+  width: 160px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 0;
+  margin: 10px;
+}
+.addnewchannel li .cont-r ul li.channer-editi:after {
+  content: "";
+  clear: both;
+}
+.addnewchannel li .cont-r ul li.channer-editi .title {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 0;
+  height: 30px;
+  line-height: 30px;
+  background: #efefef;
+}
+.addnewchannel li .cont-r ul li.channer-editi .sel {
+  padding: 20px 5px;
+}
+.addnewchannel li .cont-r ul li.channer-editi .sel select {
+  min-width: 100px;
+  height: 25px;
+  line-height: 25px;
+}
+.addnewchannel li .cont-r.border {
+  border: 1px solid #ccc;
+}
+.addnewchannel li .cont-r.noboder {
+  border: none;
+}
+.addnewchannel li .cont-r .def {
+  display: inline-block;
+  padding: 0 10px;
+}
+.addnewchannel li .cont-r .addbeizhu {
+  width: 320px;
+  height: 80px;
+}
+.addExcel {
+  width: 500px;
+  margin: 0 auto;
+}
+.addExcel .setInput {
+  width: 350px;
+  border: 1px solid #ccc;
+  height: 32px;
+  line-height: 32px;
+  display: inline-block;
+}
+.addExcel .setInput input {
+  display: none;
+}
+.addExcel .setInput span {
+  color: #999;
+  padding: 0 10px;
+}
+.tableborder tr th,
+.tableborder tr td {
+  border: 1px solid #999;
+}
+.tableLine input[type=checkbox] {
+  margin-top: 13px;
+}
+.tableLine .error {
+  background: #f90;
+}
+.tableLine .attrEdit .setAttr {
+  display: block;
+  height: 30px;
+}
+.tableLine .attrEdit .setAttr input {
+  width: 100%;
+  height: 100%;
+}
+.tableLine .attrEdit .showAttr {
+  display: none;
+}
+.tableLine .attrSHow .setAttr {
+  display: none;
+}
+.tableLine .attrSHow .showAttr {
+  display: block;
+}
+.tableLine .exceledit .todo {
+  display: block;
+}
+.tableLine .exceledit .saved {
+  display: none;
+}
+.tableLine .excelsave .todo {
+  display: none;
+}
+.tableLine .excelsave .saved {
+  display: block;
+}

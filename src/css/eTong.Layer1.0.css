@@ -1,0 +1,390 @@
+/* CSS Document */
+/*1680 1050*/
+.shap{ 
+	width:100%; 
+	height:100%; 
+	background:#000; 
+	opacity:0.2; 
+	position:fixed;
+	top:0; 
+	left:0; 
+	display:none;
+	filter:alpha(opacity=40);
+}
+.ui-close-reg{
+	background:url(../images/etongLayerItem/etongLayer_close_0.png) no-repeat center;
+	width:25px;
+	height:25px;
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	text-indent:-99999px;
+	cursor: pointer;
+}
+/**default**/
+.etwrap{
+	position:absolute; 
+	border:1px solid #d20028;  
+	margin:0 auto; 
+	z-index:999; 
+	display:inline-block;
+	border-radius:5px; 
+	background:#fff;
+} 
+.etwrap .poptitle { 
+	height:45px; 
+	line-height:45px;  
+	background:#d20028; 
+	text-align:left; 
+	padding-left:20px;
+	font-weight:700;
+ 	font-size:1.2em; 
+	position:relative;
+	color:#fff;
+}
+.etwrap .poptitle .close{ 
+	padding:8px; 
+	position:absolute; 
+	right:0; 
+	top:0; 
+	background:#F00; 
+	cursor: pointer;
+}
+.etwrap .popcontentCenter{
+	display:inline-block;
+	min-width:300px; 
+	padding:20px 30px 20px 30px; 
+	background:#fff; 
+	text-align:center;
+	line-height:24px; 
+	overflow:hidden; 
+	font-weight:300;
+}
+.etwrap .iframestyle{ 
+	 padding:0; 
+	 margin:0; 
+	 background:#fff; 
+	 text-align:left; 
+	 width:inherit; 
+	 border:0;
+}
+.etwrap .popbotton_sb { 
+	padding:10px 0 15px 0;
+	background:#fff;
+	text-align:center;
+}
+.etwrap .pop-bottonLeft,.etwrap .pop-bottonRight{	
+	float:left;
+	padding:0 20px;
+	outline:none;
+	cursor:pointer;
+	height:28px;
+	border-radius:5px;
+	line-height:28px;
+	border:0;
+ }
+.etwrap .pop-bottonLeft{
+	display:block;
+	color:#fff; 
+	text-align:center;
+	background:#d20028; 
+}
+.etwrap .pop-bottonRight{
+	display:block;
+	color:#aaa; 
+	text-align:center;
+	background:#eee;
+	border:1px solid #aaa;
+	margin-left:34px;
+	color:#000;
+}
+.wrap .popbotton_sb .sb_wrap{
+	 position:relative;
+	 overflow:hidden;
+	 padding:10px 30px 20px 30px; 
+	 background:#fff;
+	 margin:0 auto;
+ }
+.etwrap .popbotton_sb .sb_wrap { 
+	overflow:hidden;
+	display:inline-block;
+	background:#fff; 
+	color:#fff; 
+	border:1px solid #fff; 
+	font-size:1.2em; 
+	font-weight:700;
+	text-shadow:1px 1px 0px #333;
+ }
+
+.etwrap .popclosed{
+	position:absolute; 
+	top:10px; 
+	right:0px;
+	text-align:center; 
+	background:url(../images/etongLayer_close.png) no-repeat center;  
+	padding:0 10px;
+	width:25px; 
+	height:25px;
+	color:#fff;
+	font-weight:500; 
+	cursor:pointer;
+	font-size:25px;
+	line-height:25px;
+}
+.etwrap .spdef{ 
+	font-weight:300; 
+	font-size:14px; 
+	color:#666; 
+	padding:0 10px 20px 10px; 
+	text-align:left;
+}
+.etwrap .seBt{ 
+	width:190px; 
+	margin:0 auto; 
+	overflow:hidden;
+}
+.spac{ font-weight:700; font-size:20px; color:#F30; padding:30px 20px 15px 20px; text-align:center; }
+.neico{width:350px; padding:10px;}
+.neico ul li{ overflow:hidden; padding:5px 0;}
+.neico .lab{float:left; width:80px; height:30px; line-height:30px; text-align:right; }
+.neico input{ display:block; width:220px; float:left; height:20px; line-height:20px; }
+
+/**************blue*************/
+
+.blue-etwrap{
+	position:absolute; 
+	border:1px solid #41a5f1;  
+	margin:0 auto; 
+	z-index:999; 
+	display:inline-block;
+	border-radius:5px; 
+	background:#fff;
+} 
+.blue-etwrap .poptitle { 
+	height:45px; 
+	line-height:45px;  
+	background:#41a5f1; 
+	text-align:center; 
+	font-weight:700;
+ 	font-size:1.2em; 
+	position:relative;
+	color:#fff;
+}
+.blue-etwrap .poptitle .close{ 
+	padding:8px; 
+	position:absolute; 
+	right:0; 
+	top:0; 
+	background:#F00; 
+	cursor: pointer;
+}
+.blue-etwrap .popcontentCenter{
+	display:inline-block;
+	min-width:300px; 
+	padding:20px 30px 20px 30px; 
+	background:#fff; 
+	text-align:center;
+	line-height:24px; 
+	overflow:hidden; 
+	font-weight:300;
+}
+.blue-etwrap .iframestyle{ 
+	 padding:0; 
+	 margin:0; 
+	 background:#fff; 
+	 text-align:left; 
+	 width:inherit; 
+	 border:0;
+}
+.blue-etwrap .popbotton_sb { 
+	padding:10px 0 15px 0;
+	background:#fff;
+	text-align:center;
+}
+.blue-etwrap .pop-bottonLeft,.blue-etwrap .pop-bottonRight{	
+	float:left;
+	padding:0 20px;
+	outline:none;
+	cursor:pointer;
+	height:28px;
+	border-radius:5px;
+	line-height:28px;
+	border:0;
+ }
+.blue-etwrap .pop-bottonLeft{
+	display:block;
+	color:#fff; 
+	text-align:center;
+	background:#41a5f1; 
+}
+.blue-etwrap .pop-bottonRight{
+	display:block;
+	color:#aaa; 
+	text-align:center;
+	background:#eee;
+	border:1px solid #aaa;
+	margin-left:34px;
+	color:#000;
+}
+.wrap .popbotton_sb .sb_wrap{
+	 position:relative;
+	 overflow:hidden;
+	 padding:10px 30px 20px 30px; 
+	 background:#fff;
+	 margin:0 auto;
+ }
+.blue-etwrap .popbotton_sb .sb_wrap { 
+	overflow:hidden;
+	display:inline-block;
+	background:#fff; 
+	color:#fff; 
+	border:1px solid #fff; 
+	font-size:1.2em; 
+	font-weight:700;
+	text-shadow:1px 1px 0px #333;
+ }
+.blue-etwrap .popclosed{
+	position:absolute; 
+	top:0px; 
+	right:0px;
+	text-align:center; 
+	background:url(../images/etongLayerItem/etongLayer_close.png) no-repeat center;  
+	padding:0 10px;
+	width:25px; 
+	color:#fff;
+	font-weight:700; 
+	cursor:default;
+}
+.blue-etwrap .spdef{ 
+	font-weight:300; 
+	font-size:14px; 
+	color:#666; 
+	padding:0 10px 20px 10px; 
+	text-align:left;
+}
+.blue-etwrap .seBt{ 
+	width:180px; 
+	margin:0 auto; 
+	overflow:hidden;
+}
+/*******************gray************/
+.gray-etwrap{
+	background:#ededed;
+	position:absolute; 
+	border:3px solid #a0a0a0;  
+	margin:0 auto; 
+	z-index:999; 
+	display:inline-block;
+	border-radius:5px;
+	padding:3px;
+} 
+.gray-etwrap .poptitle { 
+	height:45px; 
+	line-height:45px;  
+	background:#ebebeb; 
+	text-align:center; 
+	font-weight:700;
+ 	font-size:1.2em; 
+	position:relative;
+	color:#fff;
+}
+.gray-etwrap .poptitle .close{ 
+	padding:8px; 
+	position:absolute; 
+	right:0; 
+	top:0; 
+	background:#F00; 
+	cursor: pointer;
+}
+.gray-etwrap .popcontentCenter{
+	display:inline-block;
+	min-width:300px; 
+	padding:20px 30px 20px 30px; 
+	background:#fff; 
+	text-align:center;
+	line-height:24px; 
+	overflow:hidden; 
+	font-weight:300;
+}
+.gray-etwrap .iframestyle{ 
+	 padding:0; 
+	 margin:0; 
+	 background:#fff; 
+	 text-align:left; 
+	 width:inherit; 
+	 border:0;
+}
+.gray-etwrap .popbotton_sb { 
+	padding:10px 0 15px 0;
+	background:#fff;
+	text-align:center;
+}
+.gray-etwrap .pop-bottonLeft,.gray-etwrap .pop-bottonRight{	
+	float:left;
+	padding:0 20px;
+	outline:none;
+	cursor:pointer;
+	height:28px;
+	border-radius:5px;
+	line-height:28px;
+	border:0;
+ }
+.gray-etwrap .pop-bottonLeft{
+	display:block;
+	color:#fff; 
+	text-align:center;
+	background:#56ae0c; 
+}
+.gray-etwrap .pop-bottonRight{
+	display:block;
+	color:#aaa; 
+	text-align:center;
+	background:#eee;
+	border:1px solid #aaa;
+	margin-left:34px;
+	color:#000;
+}
+.wrap .popbotton_sb .sb_wrap{
+	 position:relative;
+	 overflow:hidden;
+	 padding:10px 30px 20px 30px; 
+	 background:#fff;
+	 margin:0 auto;
+ }
+.gray-etwrap .popbotton_sb .sb_wrap { 
+	overflow:hidden;
+	display:inline-block;
+	background:#fff; 
+	color:#fff; 
+	border:1px solid #fff; 
+	font-size:1.2em; 
+	font-weight:700;
+	text-shadow:1px 1px 0px #333;
+ }
+
+.gray-etwrap .popclosed{
+	position:absolute; 
+	top:0px; 
+	right:0px;
+	text-align:center; 
+	background:url(../images/etongLayerItem/etongLayer_close.png) no-repeat center;  
+	padding:0 10px;
+	width:25px; 
+	color:#fff;
+	font-weight:700; 
+	cursor:default;
+}
+.gray-etwrap .spdef{ 
+	font-weight:300; 
+	font-size:14px; 
+	color:#666; 
+	padding:0 10px 20px 10px; 
+	text-align:left;
+}
+.gray-etwrap .seBt{ 
+	width:180px; 
+	margin:0 auto; 
+	overflow:hidden;
+}
+
+

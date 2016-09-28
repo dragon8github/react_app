@@ -1,0 +1,26 @@
+.EtLayer_default_wrap ul li input .input_width{width: 250px;}
+.EtLayer_default_wrap ul li label{font-weight: bold; }
+.etwrap .popcontentCenter{font-weight: bold;font-size: 15px;}
+#tanchuang{width: 593px;height: auto;border: 20px rgba(0,0,0,0.2) solid;border-radius: 6px;position: absolute;left: 393.5px;z-index:99;display: none;}
+#tanchuang button{position: absolute;top:-40px;background: none;border: none;cursor: pointer;right: -40px;}
+.current_div_1{background: rgba(0,0,0,0.2); width: 100%;height:100%; position: absolute; top:0; left: 0;display: none; z-index: 97;}
+.viewimg{ padding:20px 0;}
+.viewimg .imgbox img{ border:3px solid #9a9a9c;}
+.viewimg .imgbox{ float:left;}
+.viewimg .viewinfo{ float:left; padding-left:30px; padding-top:20px; width:350px;}
+.viewimg .viewinfo ul li{ clear:both; padding-bottom:15px;}
+.viewimg .viewinfo ul li span{ width:100px; float:left; display:inline-block; font-weight:bold; font-size:12px; padding-right:5px; text-align:right;}
+.viewimg .viewinfo ul li input{ margin-right:3px;}
+.audio-li div{ float:left; width:245px}
+.audio-li div label.s{ width:100px; float:left; padding-bottom:15px;}
+.audio-li div label.b{ width:145px; float:left;padding-bottom:15px;}
+.audio-li div label.a{ width:245px;}
+.audio-li div .othertext { margin-left:5px; width:180px;}
+.audio-li{ display:none; height:100%; overflow:hidden;}
+.btn-bottom .pop-bottonLeft{ width:135px; height:35px; margin-left:105px; line-height:35px; color:#fff; border-radius:5px; background:#d20028; border:0; font-size:14px;}
+
+
+
+
+
+

@@ -1,0 +1,175 @@
+/**订单查询**/
+.change_width {
+    overflow: auto;
+}
+.change_width table {
+    min-width: 2000px;
+}
+.red_btn {
+    width:70px;
+    background: #b30e34;
+    line-height: 25px;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-left: 15px;
+    border: none;
+}
+.red_btn:hover {
+    cursor: pointer;
+}
+.org_btn {
+    background: #fb7906;
+    color: #ffffff;
+    width: 60px;
+    border-radius: 4px;
+    line-height: 25px;
+    margin-left: 50px;
+    margin-top:3px;
+    border: none;
+}
+.org_btn:hover{
+    color: #ffffff;
+}
+.bottom_btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bottom_btn button{display: inline;
+    width: 80px;
+}
+.common_li ul li {
+    width: 290px;
+}
+.common_li ul li input {
+    width: 160px;
+    height: 20px;
+    line-height: 20px;
+}
+.common_li ul li textarea {
+    width: 190px;
+}
+.common_ul .order_info {
+    font-size: 14px;
+    margin: 10px 0 0 25px;
+}
+.common_ul .money_input input {
+    width: 150px;
+    line-height: 23px;
+}
+.common_ul .money_return {
+    line-height:23px;
+}
+.common_ul .add_text {
+    clear: both;
+    width: auto;
+}
+.common_ul .add_text textarea {
+    width: 405px;
+}
+.common_ul ul li label {
+    width: 95px;
+}
+.common_ul .money_input {
+    width: auto;
+}
+.common_ul .money_input div{
+    float: left;
+}
+.common_ul .money_input div input {
+    width: 20px;
+    margin-top: 8px;
+    margin-right: 0;
+}
+.common_li .prd_price {
+    width: auto;
+}
+.common_li .prd_price div {
+    float: left;
+}
+.common_li .prd_price div input {
+    width: 14px;
+    margin-top: 4px;
+    margin-right: 0;
+    margin-right: 3px;
+}
+.common_li .prd_price div :nth-child(2) {
+    margin-left: 10px;
+}
+.common_ul .account_box {
+    width: 600px;
+}
+.common_ul .account_box div {
+    float: left;
+}
+.common_ul .account_box div:nth-child(3) {
+    margin-top: 10px;
+}
+.common_ul .account_box div:nth-child(4) {
+    margin-top: 10px;
+}
+.common_ul .account_box div input {
+    width: 155px;
+    line-height: 23px;
+}
+.display {
+    display: none;
+}
+.addwin_box ul li input[type="radio"] {
+    margin-right: 0;
+}
+.addwin_box ul li:last-child textarea {
+    width: 250px;
+    height: 80px;
+}
+.change_div li {
+    clear: both;
+}
+.apply_li input {
+    width: 155px;
+    line-height: 23px;
+}
+.last_btn {
+    margin-left: 98px;
+}
+.last_btn button:first-child {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: #d20028;
+    border: none;
+    float: left;
+    padding: 0 20px;
+    outline: none;
+    cursor: pointer;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+}
+.last_btn button:last-child {
+    display: block;
+    color: #aaa;
+    text-align: center;
+    background: #eee;
+    border: 1px solid #aaa;
+    margin-left: 34px;
+    color: #000;
+    float: left;
+    padding: 0 20px;
+    outline: none;
+    cursor: pointer;
+    height: 28px;
+    border-radius: 5px;
+    line-height: 28px;
+}
+.editred_btn {
+    width:70px;
+    background: #b30e34;
+    line-height: 25px;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-left:800px;
+    border: none;
+}
+.editred_btn:hover {
+    cursor: pointer;
+}
